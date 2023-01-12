@@ -1,0 +1,29 @@
+section#container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section .article{
+    display: flex;
+    gap: 20px;
+ 
+}
+section div.article div.image-container{
+
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+section div.article div.image-container  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-grow: 2;
+}
+
+section div.article div.text-content-container{
+    width:400px
+}
