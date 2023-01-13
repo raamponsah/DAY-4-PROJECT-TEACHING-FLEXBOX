@@ -39,19 +39,34 @@ div.image-banner img{
 
 /* Featured Section Styles */
 
+/* This is the main container of the second section */
 section#featured-section-container{
     display:flex;
-    width: 100%;
-    background:#f1b040;
-    margin:0 auto;
-
+    background:#f7f6f5;
+    justify-content: center;
+    padding: 40px;
+    height: 500px;
+    flex-wrap: row wrap;
 }
+
+div.featured-content-image-container{
+    display: flex;
+    width: 50%;
+    gap:40px;
+}
+
+
 
 div.featured-image-container{
-    width: 400px;
-    height: 300px;
+    height: 300px; /*very important for justify-content of parent to work*/
+    width:600px;
     overflow: hidden;
 }
+
+/* div.featured-content{
+
+} */
+
 
 div.featured-image-container img{
     width:100%;
@@ -59,22 +74,25 @@ div.featured-image-container img{
     object-fit: cover;
 }
 
-div.featured-content-image-container{
-    display: flex;
-    width: 50%;
-}
 
 /* Article styles */
 
 div.list-of-articles-container{
-    width: 50%;
+    display:flex;
+    flex-direction: column;
+    height: 300px; /*very important for justify-content of parent to work*/
+    width: 500px; /*very important for justify-content of parent to work*/
+    gap: 20px;
+    
 }
 div.article-container{
     display:flex;
+  
+    gap: 20px;
 }
 div.article-image-container{
     width:220px;
-    height: 220px;
+    height: 120px;
     overflow: hidden;
 }
 
