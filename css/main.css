@@ -28,7 +28,22 @@ header ul{
 
 header ul li a{
     text-decoration: none;
+    padding: 10px;
 }
+
+header ul li a:hover{
+    color: red;
+    background-color: #0e0904;
+
+}
+
+header ul li a:active{
+    color: rgb(6, 203, 115);
+    background-color: #0e0904;
+
+}
+
+
 
 /* Showcase Styles */
 section.showcase{
@@ -181,6 +196,10 @@ div form input[type="submit"]{
     color:white;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+div form input[type="email"]:focus{
+    border:5px solid red;
 }
 
 div form input[type="submit"]:hover{
