@@ -167,3 +167,52 @@ div form input[type="submit"]{
 div form input[type="submit"]:hover{
     background-color: rgb(99, 2, 234);
 }
+
+
+footer{
+    display:flex;
+    justify-content: space-evenly;
+    min-height: 300px;
+    padding:20px 0;
+
+}
+
+section.footer-section-1-container ul{
+ list-style: none;
+}
+
+section.footer-section-1-container ul li{
+    padding: 10px 0;
+
+}
+section.footer-section-1-container ul li a{
+    text-decoration: none;
+ 
+}
+
+footer{
+    background-color: red;
+    color:white;
+}
+
+footer section ul li a{
+    color:white;
+}
+
+
+footer address{
+    font-style: normal;
+    line-height: 1.5;
+}
+
+footer section.social-links-container ul{
+    display:flex;
+    gap:20px;
+    list-style: none;
+
+}
+
+footer section.social-links-container ul li a{
+    text-decoration: none;
+  
+}
