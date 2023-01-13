@@ -172,6 +172,7 @@ div form input[type="submit"]:hover{
 footer{
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
     min-height: 300px;
     padding:20px 0;
 
